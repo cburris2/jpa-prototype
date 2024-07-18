@@ -1,6 +1,8 @@
 ---
+layout: page
 title: About Collection Metadata Editing Tool
 permalink: /About_Collection_Metadata_Editing_Tool/
+description: This guidance is for v1.0.0 of the Collection Metadata Enterprise Tool (CoMET). CoMET is a metadata editor built using the CEdit web application.
 ---
 
 [Category:Collection Manager](/Category:Collection_Manager "wikilink")
