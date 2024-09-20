@@ -21,6 +21,7 @@ _ISO Usage: 1 = Mandatory, 0...1 = Optional_
 
 *M = Mandatory; C = Conditional; R = Recommended; blank cell = user discretion*
 
+# NOAA Rubric
 | Community  | Element | M/C/R | Notes
 | - | - | - | -
 NOAA Completeness Rubric V2 | linkage | M |
@@ -31,24 +32,16 @@ NOAA Completeness Rubric V2 | description | C | Provide if name field is null.
 NOAA Completeness Rubric V2 | function | M |
 
 
-### More Information
-UML Image: [CI OnlineResource.png](/CI_OnlineResource.png)
-<table class="wikitable">
-<tbody>
-<tr>
-<td colspan="3" bgcolor="FFFFFF">
-Links
-</td>
-<td>
-[Online Resources](/Online_Resources)
-</td>
-</tr>
-<tr>
-</tr>
-</tbody>
-</table>
+# OneStop Project
+OneStop Project| linkage | M |
+OneStop Project | protocol | C | Required when the URL is for Data Access
+OneStop Project| applicationProfile | - |
+OneStop Project| name | C | Provide if description field is null.
+OneStop Project | description | C | Provide if name field is null.
+OneStop Project | function | M |
 
-
+### UML(Unified Modeling Language) Image
+![CI OnlineResource.png](CI_OnlineResource.png)
 
 ## XML Examples 
 
