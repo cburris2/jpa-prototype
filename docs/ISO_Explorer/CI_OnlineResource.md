@@ -312,6 +312,7 @@ M
 </td>
 </tr>
 </tbody>
+
 </table>
 ### More Information
 
@@ -319,30 +320,26 @@ M
 <tbody>
 <tr>
 <td colspan="3" bgcolor="FFFFFF">
-**UML**
-
+<strong>UML</strong>
 </td>
 <td bgcolor="FFFFFF">
-[thumb|left|CI OnlineResource.png](/Image:CI_OnlineResource.png "wikilink")
-
+[CI OnlineResource.png](/Image:CI_OnlineResource.png)
 </td>
 </tr>
 <tr>
 <td colspan="3" bgcolor="FFFFFF">
-**Links**
-
+Links
 </td>
 <td>
--   [Online Resources](/Online_Resources "wikilink")
-    </td>
-    </tr>
+-   [Online Resources](/Online_Resources)
+</td>
+</tr>
 
 <tr>
 <td colspan="3" bgcolor="FFFFFF">
 **Examples**
-
 </td>
-<td>
+<td bgcolor="#f8f9fa">
     <gmd:CI_OnlineResource>
      <gmd:linkage>
       <gmd:URL>http://www.ngdc.noaa.gov/dem/squareCellGrid/download/258</gmd:URL>
