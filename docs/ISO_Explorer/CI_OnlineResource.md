@@ -33,6 +33,8 @@ NOAA Completeness Rubric V2 | function | M |
 
 
 # OneStop Project
+| Community  | Element | M/C/R | Notes
+| - | - | - | -
 OneStop Project| linkage | M |
 OneStop Project | protocol | C | Required when the URL is for Data Access
 OneStop Project| applicationProfile | - |
