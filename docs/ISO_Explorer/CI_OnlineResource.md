@@ -315,15 +315,9 @@ M
 
 </table>
 ### More Information
-Image: [CI OnlineResource.png](/CI_OnlineResource.png)
+UML Image: [CI OnlineResource.png](/CI_OnlineResource.png)
 <table class="wikitable">
 <tbody>
-<tr>
-<td colspan="3" bgcolor="FFFFFF">
-<strong>UML</strong>
-</td>
-[CI OnlineResource.png](/CI_OnlineResource.png)
-</tr>
 <tr>
 <td colspan="3" bgcolor="FFFFFF">
 Links
@@ -338,25 +332,26 @@ Links
 Examples
 </td>
 <td bgcolor="#f8f9fa">
-    <gmd:CI_OnlineResource>
-     <gmd:linkage>
-      <gmd:URL>http://www.ngdc.noaa.gov/dem/squareCellGrid/download/258</gmd:URL>
-       </gmd:linkage>
-      <gmd:name>
-       <gco:CharacterString>Adak, AK 1 arc-second Tsunami Inundation DEM</gco:CharacterString>
-       </gmd:name>
-      <gmd:description>
-       <gco:CharacterString>Download page for accessing DEM, metadata record and development report.</gco:CharacterString>
-      </gmd:description>
-      <gmd:function>
-       <gmd:CI_OnLineFunctionCode
-        codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-        codeListValue="download">
-         download
-        </gmd:CI_OnLineFunctionCode>
-       </gmd:function>
-    </gmd:CI_OnlineResource>
-
+>
+>    <gmd:CI_OnlineResource>
+>     <gmd:linkage>
+>      <gmd:URL>http://www.ngdc.noaa.gov/dem/squareCellGrid/download/258</gmd:URL>
+>       </gmd:linkage>
+>      <gmd:name>
+>       <gco:CharacterString>Adak, AK 1 arc-second Tsunami Inundation DEM</gco:CharacterString>
+>       </gmd:name>
+>      <gmd:description>
+>       <gco:CharacterString>Download page for accessing DEM, metadata record and development report.</gco:CharacterString>
+>      </gmd:description>
+>      <gmd:function>
+>       <gmd:CI_OnLineFunctionCode
+>        codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+>        codeListValue="download">
+>         download
+>        </gmd:CI_OnLineFunctionCode>
+>       </gmd:function>
+>    </gmd:CI_OnlineResource>
+>
 </td>
 </tr>
 </tbody>
