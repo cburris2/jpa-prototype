@@ -9,12 +9,12 @@ _ISO Usage: 1 = Mandatory, 0...1 = Optional_
 
 | # | Element      | ISO Usage | Definition and Recommended Practice
 | - | ------------ | -------- | -------------------
-| 1 | [linkage](/CharaterString) | 1 | **_Internet address which uses a Uniform Resource Locator address or similar addressing scheme. Provide complete address to active URL. Do not provide URLs in other elements._** |
-| 2 | [protocol](/CharaterString) | 0...1 | **_The connection protocol to be used. When applicable, use the identifier values in this codelist hosted by Open Source Geospatial Foundation._**   |
-| 3 | [applicationProfile](/CharaterString) | 0...1 | Name of an application profile that can be used with the online resource. |
-| 4 | [name](/CharaterString) | 0...1 | Title of the online resource. For HTML pages, use the html title tag. Recommend providing at least a name or a description.   |
-| 5 | [description](/CharaterString) | 0...1 | 1	Brief text explaining content or purpose of online resource. Recommend providing at least a name or a description.Example: NOAA homepage  |
-| 6 | [function](/ISO_19115_and_19115-2_CodeList_Dictionaries) | 0...1 | Categorize the purpose of this online resource. Use 'download' for direct access to files or ftp sites. Use 'information' for pages with only descriptive information about the resource. Use 'search' for interfaces that support users interaction to find the resource of interest.   |
+| 1 | [linkage](/jpa-prototype/CharacterString) | 1 | **_Internet address which uses a Uniform Resource Locator address or similar addressing scheme. Provide complete address to active URL. Do not provide URLs in other elements._** <br /> `Examples` [www.noaa.gov](www.noaa.gov) or [www.ncei.noaa.gov](www.ncei.noaa.gov)|
+| 2 | [protocol](/jpa-prototype/CharacterString) | 0...1 | **_The connection protocol to be used. When applicable, use the identifier values in this codelist hosted by Open Source Geospatial Foundation._**   |
+| 3 | [applicationProfile](/CharacterString) | 0...1 | Name of an application profile that can be used with the online resource. |
+| 4 | [name](/CharacterString) | 0...1 | Title of the online resource. For HTML pages, use the html title tag. Recommend providing at least a name or a description.   |
+| 5 | [description](/CharacterString) | 0...1 | 1	Brief text explaining content or purpose of online resource. Recommend providing at least a name or a description.Example: NOAA homepage  |
+| 6 | [function](/jpa-prototype/ISO_19115_and_19115-2_CodeList_Dictionaries) | 0...1 | Categorize the purpose of this online resource. Use 'download' for direct access to files or ftp sites. Use 'information' for pages with only descriptive information about the resource. Use 'search' for interfaces that support users interaction to find the resource of interest.   |
 
 
 ### Community Requirements
