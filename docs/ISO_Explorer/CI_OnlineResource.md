@@ -3,13 +3,13 @@ title: CI OnlineResource
 permalink: /CI_OnlineResource/
 ---
 
-<h1> CI OnlineResource </h1>
+# CI OnlineResource
 
 _ISO Usage: 1 = Mandatory, 0...1 = Optional_
 
 | # | Element      | ISO Usage | Definition and Recommended Practice
 | - | ------------ | -------- | -------------------
-| 1 | [linkage](/jpa-prototype/CharacterString) | 1 | **_Internet address which uses a Uniform Resource Locator address or similar addressing scheme. Provide complete address to active URL. Do not provide URLs in other elements._** <br /> `Examples` [www.noaa.gov](www.noaa.gov) or [www.ncei.noaa.gov](www.ncei.noaa.gov)|
+| 1 | [linkage](/jpa-prototype/CharacterString) | 1 | **_Internet address which uses a Uniform Resource Locator address or similar addressing scheme. Provide complete address to active URL. Do not provide URLs in other elements._** <br />`Examples`<br />  [https://www.noaa.gov/](https://www.noaa.gov/) <br />  [https://www.ncei.noaa.gov/](https://www.ncei.noaa.gov/) |
 | 2 | [protocol](/jpa-prototype/CharacterString) | 0...1 | **_The connection protocol to be used. When applicable, use the identifier values in this codelist hosted by Open Source Geospatial Foundation._**   |
 | 3 | [applicationProfile](/CharacterString) | 0...1 | Name of an application profile that can be used with the online resource. |
 | 4 | [name](/CharacterString) | 0...1 | Title of the online resource. For HTML pages, use the html title tag. Recommend providing at least a name or a description.   |
@@ -17,197 +17,20 @@ _ISO Usage: 1 = Mandatory, 0...1 = Optional_
 | 6 | [function](/jpa-prototype/ISO_19115_and_19115-2_CodeList_Dictionaries) | 0...1 | Categorize the purpose of this online resource. Use 'download' for direct access to files or ftp sites. Use 'information' for pages with only descriptive information about the resource. Use 'search' for interfaces that support users interaction to find the resource of interest.   |
 
 
-### Community Requirements
+## Community Requirements
 
 *M = Mandatory; C = Conditional; R = Recommended; blank cell = user discretion*
 
-<table class="wikitable" border="1">
-<tbody>
-<tr>
-<th>
-Community
+| Community  | Element | M/C/R | Notes
+| - | - | - | -
+NOAA Completeness Rubric V2 | linkage | M |
+NOAA Completeness Rubric V2 | protocol | C | Required when the URL is for Data Access
+NOAA Completeness Rubric V2 | applicationProfile | - |
+NOAA Completeness Rubric V2 | name | C | Provide if description field is null.
+NOAA Completeness Rubric V2 | description | C | Provide if name field is null.
+NOAA Completeness Rubric V2 | function | M |
 
-</th>
-<th>
-Element
 
-</th>
-<th>
-M/C/R
-
-</th>
-<th>
-Notes
-
-</th>
-</tr>
-<tr bgcolor="FFFFFF" border="2">
-<td rowspan="6">
-NOAA Completeness Rubric V2
-
-</td>
-<td>
-linkage
-
-</td>
-<td align="center">
-M
-
-</td>
-<td>
-</td>
-</tr>
-<tr bgcolor="FFFFFF">
-<td>
-protocol
-
-</td>
-<td align="center">
-C
-
-</td>
-<td>
-Required when the URL is for Data Access
-
-</td>
-</tr>
-<tr bgcolor="FFFFFF">
-<td>
-applicationProfile
-
-</td>
-<td align="center">
-</td>
-<td>
-</td>
-</tr>
-<tr bgcolor="FFFFFF">
-<td>
-name
-
-</td>
-<td align="center">
-C
-
-</td>
-<td>
-Provide if description field is null.
-
-</td>
-</tr>
-<tr bgcolor="FFFFFF">
-<td>
-description
-
-</td>
-<td align="center">
-C
-
-</td>
-<td>
-Provide if name field is null.
-
-</td>
-</tr>
-<tr bgcolor="FFFFFF">
-<td>
-function
-
-</td>
-<td align="center">
-M
-
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<th colspan="6">
-</th>
-</tr>
-<tr bgcolor="FFFFFF" border="2">
-<td rowspan="6">
-OneStop Project
-
-</td>
-<td>
-linkage
-
-</td>
-<td align="center">
-M
-
-</td>
-<td>
-</td>
-</tr>
-<tr bgcolor="FFFFFF">
-<td>
-protocol
-
-</td>
-<td align="center">
-C
-
-</td>
-<td>
-Required when the URL is for Data Access
-
-</td>
-</tr>
-<tr bgcolor="FFFFFF">
-<td>
-applicationProfile
-
-</td>
-<td align="center">
-</td>
-<td>
-</td>
-</tr>
-<tr bgcolor="FFFFFF">
-<td>
-name
-
-</td>
-<td align="center">
-C
-
-</td>
-<td>
-Provide if description field is null.
-
-</td>
-</tr>
-<tr bgcolor="FFFFFF">
-<td>
-description
-
-</td>
-<td align="center">
-C
-
-</td>
-<td>
-Provide if name field is null.
-
-</td>
-</tr>
-<tr bgcolor="FFFFFF">
-<td>
-function
-
-</td>
-<td align="center">
-M
-
-</td>
-<td>
-</td>
-</tr>
-</tbody>
-
-</table>
 ### More Information
 UML Image: [CI OnlineResource.png](/CI_OnlineResource.png)
 <table class="wikitable">
@@ -225,31 +48,25 @@ Links
 </tbody>
 </table>
 
+
+
 ## XML Examples 
 
->    \<gmd:CI_OnlineResource> <br />
->       &nbsp;    \<gmd:linkage> <br />
->   &nbsp; &nbsp;  \<gmd:URL> http://www.ngdc.noaa.gov/dem/squareCellGrid/download/258 </gmd:URL> <br />
->    &nbsp;   </gmd:linkage> <br />
->     &nbsp; \<gmd:name> <br />
->      &nbsp; &nbsp; \<gco:CharacterString> Adak, AK 1 arc-second Tsunami Inundation DEM </gco:CharacterString> <br />
->     &nbsp;  \</gmd:name> <br />
->     &nbsp; \<gmd:description> <br />
->     &nbsp; &nbsp;  \<gco:CharacterString> Download page for accessing DEM, metadata record and development report. </gco:CharacterString> <br />
->     &nbsp; \</gmd:description> <br />
->     &nbsp; \<gmd:function> <br />
->     &nbsp; &nbsp;  \<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"> <br />
->        &nbsp; &nbsp; &nbsp; download <br />
->      &nbsp; &nbsp; \</gmd:CI_OnLineFunctionCode><br />
->    &nbsp;   \</gmd:function><br />
->     \</gmd:CI_OnlineResource>
-
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+>  &nbsp;  
+>    \<gmd:CI_OnlineResource>  
+>       &nbsp;    \<gmd:linkage>  
+>   &nbsp; &nbsp;  \<gmd:URL> http://www.ngdc.noaa.gov/dem/squareCellGrid/download/258 </gmd:URL>  
+>    &nbsp;   </gmd:linkage>  
+>     &nbsp; \<gmd:name>  
+>      &nbsp; &nbsp; \<gco:CharacterString> Adak, AK 1 arc-second Tsunami Inundation DEM </gco:CharacterString>  
+>     &nbsp;  \</gmd:name>  
+>     &nbsp; \<gmd:description>  
+>     &nbsp; &nbsp;  \<gco:CharacterString> Download page for accessing DEM, metadata record and development report. </gco:CharacterString>  
+>     &nbsp; \</gmd:description>  
+>     &nbsp; \<gmd:function>   
+>     &nbsp; &nbsp;  \<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">  
+>        &nbsp; &nbsp; &nbsp; download    
+>      &nbsp; &nbsp; \</gmd:CI_OnLineFunctionCode>  
+>    &nbsp;   \</gmd:function>  
+>     \</gmd:CI_OnlineResource>  
+>  &nbsp;  
