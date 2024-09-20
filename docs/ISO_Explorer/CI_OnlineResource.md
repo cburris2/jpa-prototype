@@ -24,7 +24,7 @@ Elements
 
 </td>
 <td bgcolor="FFFF99">
-[linkage](/URL "wikilink")
+[linkage](/URL)
 
 </td>
 <td bgcolor="FFFF99">
@@ -44,7 +44,7 @@ Internet address which uses a Uniform Resource Locator address or similar addres
 
 </td>
 <td bgcolor="CCFFFF">
-[protocol](/CharacterString "wikilink")
+\[protocol](/CharacterString)
 
 </td>
 <td bgcolor="CCFFFF">
@@ -61,7 +61,7 @@ The connection protocol to be used. When applicable, use the identifier values i
 
 </td>
 <td bgcolor="CCFFFF">
-[applicationProfile](/CharacterString "wikilink")
+**Application Profile** [applicationProfile](/CharacterString)
 
 </td>
 <td bgcolor="CCFFFF">
@@ -77,7 +77,7 @@ The connection protocol to be used. When applicable, use the identifier values i
 
 </td>
 <td bgcolor="CCFFFF">
-[name](/CharacterString "wikilink")
+[name](/CharacterString)
 
 </td>
 <td bgcolor="CCFFFF">
