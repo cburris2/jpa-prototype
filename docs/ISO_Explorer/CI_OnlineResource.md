@@ -128,6 +128,7 @@ Categorize the purpose of this online resource. Use 'download' for direct access
 *M = Mandatory; C = Conditional; R = Recommended; blank cell = user discretion*
 
 <table class="wikitable" border="1">
+<tbody>
 <tr>
 <th>
 Community
