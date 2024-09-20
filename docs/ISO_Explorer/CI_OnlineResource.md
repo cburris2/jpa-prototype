@@ -15,6 +15,7 @@ Elements
 
 </th>
 </tr>
+
 <tr>
 <td bgcolor="FFFF99">
 1
@@ -29,10 +30,9 @@ Elements
 
 </td>
 
-<td bgcolor="FFFFFF>
-<i>Internet address which uses a Uniform Resource Locator address or similar addressing scheme. Provide complete address to active URL. Do not provide URLs in other elements.
-***Example***: [`https://www.noaa.gov`](https://www.noaa.gov)</i>
-
+<td>
+Internet address which uses a Uniform Resource Locator address or similar addressing scheme. Provide complete address to active URL. Do not provide URLs in other elements.
+***Example***: [`https://www.noaa.gov`](https://www.noaa.gov)
 </td>
 </tr>
 
@@ -49,9 +49,8 @@ Elements
 0..1
 
 </td>
-<td bgcolor="FFFFFF>
-<i>The connection protocol to be used. When applicable, use the identifier values in this [codelist](https://github.com/OSGeo/Cat-Interop/blob/master/LinkPropertyLookupTable.csv) hosted by Open Source Geospatial Foundation. </i>
-
+<td>
+The connection protocol to be used. When applicable, use the identifier values in this [codelist](https://github.com/OSGeo/Cat-Interop/blob/master/LinkPropertyLookupTable.csv) hosted by Open Source Geospatial Foundation.
 </td>
 </tr>
 <tr>
@@ -67,10 +66,8 @@ Elements
 0..1
 
 </td>
-<td bgcolor="FFFFFF>
-<i>Name of an application profile that can be used with the online resource.</i>
+<td>Name of an application profile that can be used with the online resource</td>
 
-</td>
 </tr>
 <tr>
 <td bgcolor="CCFFFF">
@@ -85,10 +82,7 @@ Elements
 0..1
 
 </td>
-<td bgcolor="FFFFFF>
-<i>Title of the online resource. For HTML pages, use the html title tag. Recommend providing at least a name or a description.</i>
-
-</td>
+<td>Title of the online resource. For HTML pages, use the html title tag. Recommend providing at least a name or a description.</td>
 </tr>
 <tr>
 <td bgcolor="CCFFFF">
@@ -103,11 +97,8 @@ Elements
 0..1
 
 </td>
-<td bgcolor="FFFFFF>
-<i>Brief text explaining content or purpose of online resource. Recommend providing at least a name or a description.
-**Example:** `NOAA homepage`</i>
-
-</td>
+<td>Brief text explaining content or purpose of online resource. Recommend providing at least a name or a description.
+**Example:** `NOAA homepage` </td>
 </tr>
 <tr>
 <td bgcolor="CCFFFF">
