@@ -97,8 +97,10 @@ The connection protocol to be used. When applicable, use the identifier values i
 0..1
 
 </td>
-<td>Brief text explaining content or purpose of online resource. Recommend providing at least a name or a description.
-**Example:** `NOAA homepage` </td>
+<td>
+Brief text explaining content or purpose of online resource. Recommend providing at least a name or a description.
+**Example:** `NOAA homepage` 
+</td>
 </tr>
 <tr>
 <td bgcolor="CCFFFF">
@@ -113,11 +115,11 @@ The connection protocol to be used. When applicable, use the identifier values i
 0..1
 
 </td>
-<td bgcolor="FFFFFF>
-<i>Categorize the purpose of this online resource. Use 'download' for direct access to files or ftp sites. Use 'information' for pages with only descriptive information about the resource. Use 'search' for interfaces that support users interaction to find the resource of interest. </i>
-
+<td>
+Categorize the purpose of this online resource. Use 'download' for direct access to files or ftp sites. Use 'information' for pages with only descriptive information about the resource. Use 'search' for interfaces that support users interaction to find the resource of interest. 
 </td>
 </tr>
+</tbody>
 </table>
 ### Community Requirements
 
@@ -311,6 +313,7 @@ M
 ### More Information
 
 <table class="wikitable">
+<tbody>
 <tr>
 <td colspan="3" bgcolor="FFFFFF">
 **UML**
@@ -358,4 +361,5 @@ M
 
 </td>
 </tr>
+</tbody>
 </table>
