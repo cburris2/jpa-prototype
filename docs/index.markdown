@@ -7,7 +7,7 @@ Comprehensive explorer of ISO 19115 and 19115-2 metadata standards. These pages 
 The ISO Explorer can be used as an accompanying guide to the ISO 19115-2 metadata standard. 
 [An Internal Link to the About Metadata](/jpa-prototype/About_Collection_Metadata_Editing_Tool/)
 
-[Jekyll About](/jpa-prototype/About_Collection_Metadata_Editing_Tool/)
+[Jekyll About](/jpa-prototype/about/)
 ## Support
 Any issues or suggestions should be directed to Paul Lemieux at paul.lemieux@noaa.gov.
 
