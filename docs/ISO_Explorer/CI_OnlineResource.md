@@ -326,33 +326,30 @@ Links
 [Online Resources](/Online_Resources)
 </td>
 </tr>
-
 <tr>
-<td colspan="3" bgcolor="FFFFFF">
-Examples
-</td>
-<td bgcolor="#f8f9fa">
->
->    <gmd:CI_OnlineResource>
->     <gmd:linkage>
->      <gmd:URL>http://www.ngdc.noaa.gov/dem/squareCellGrid/download/258</gmd:URL>
->       </gmd:linkage>
->      <gmd:name>
->       <gco:CharacterString>Adak, AK 1 arc-second Tsunami Inundation DEM</gco:CharacterString>
->       </gmd:name>
->      <gmd:description>
->       <gco:CharacterString>Download page for accessing DEM, metadata record and development report.</gco:CharacterString>
->      </gmd:description>
->      <gmd:function>
->       <gmd:CI_OnLineFunctionCode
->        codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
->        codeListValue="download">
->         download
->        </gmd:CI_OnLineFunctionCode>
->       </gmd:function>
->    </gmd:CI_OnlineResource>
->
-</td>
 </tr>
 </tbody>
 </table>
+
+## XML Examples 
+
+>    \<gmd:CI_OnlineResource> <br />
+>       &nbsp;    \<gmd:linkage> <br />
+>   &nbsp; &nbsp;  \<gmd:URL> http://www.ngdc.noaa.gov/dem/squareCellGrid/download/258 </gmd:URL> <br />
+>    &nbsp;   </gmd:linkage> <br />
+>     &nbsp; \<gmd:name> <br />
+>      &nbsp; &nbsp; \<gco:CharacterString> Adak, AK 1 arc-second Tsunami Inundation DEM </gco:CharacterString> <br />
+>     &nbsp;  \</gmd:name> <br />
+>     &nbsp; \<gmd:description> <br />
+>     &nbsp; &nbsp;  \<gco:CharacterString> Download page for accessing DEM, metadata record and development report. </gco:CharacterString> <br />
+>     &nbsp; \</gmd:description> <br />
+>     &nbsp; \<gmd:function> <br />
+>     &nbsp; &nbsp;  \<gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"> <br />
+>        &nbsp; &nbsp; &nbsp; download <br />
+>      &nbsp; &nbsp; \</gmd:CI_OnLineFunctionCode><br />
+>    &nbsp;   \</gmd:function><br />
+>     \</gmd:CI_OnlineResource>
+
+
+
+
