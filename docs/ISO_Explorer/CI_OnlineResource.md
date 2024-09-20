@@ -323,7 +323,7 @@ M
 <strong>UML</strong>
 </td>
 <td bgcolor="FFFFFF">
-[CI OnlineResource.png](/Image:CI_OnlineResource.png)
+[CI OnlineResource.png](/CI_OnlineResource.png)
 </td>
 </tr>
 <tr>
@@ -331,7 +331,7 @@ M
 Links
 </td>
 <td>
--   [Online Resources](/Online_Resources)
+[Online Resources](/Online_Resources)
 </td>
 </tr>
 
