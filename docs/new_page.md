@@ -1,6 +1,12 @@
+# `Metadata Pages`
+<br />
+
 [An Internal Link to the About Metadata](/jpa-prototype/About_Collection_Metadata_Editing_Tool)
-[An Internal Link to the About Metadata](/jpa-prototype/CI_OnlineResource)
-[An Internal Link to the About Metadata](/jpa-prototype/CI_ResponsibleParty)
-[An Internal Link to the About Metadata](/jpa-prototype/CI_Series)
+<br />
+[Online Resource](/jpa-prototype/CI_OnlineResource)
+<br />
+[CI_ResponsibleParty](/jpa-prototype/CI_ResponsibleParty)
+<br />
+[CI_Series](/jpa-prototype/CI_Series)
 
 
