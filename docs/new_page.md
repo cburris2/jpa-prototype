@@ -1,3 +1,9 @@
+---
+layout: page
+title: New Page
+permalink: /new-page/
+---
+
 # `Metadata Pages`
 <br />
 

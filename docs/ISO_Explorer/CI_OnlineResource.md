@@ -43,10 +43,11 @@ Internet address which uses a Uniform Resource Locator address or similar addres
 2
 
 </td>
-[protocol](/CharacterString)
+
 <td bgcolor="CCFFFF">
-
-
+<dd>
+[protocol](/CharacterString)
+</dd>
 <a href="/CharacterString"> Protocol</a>
 
 </td>

@@ -6,7 +6,7 @@ permalink: /CharacterString/
 <dl>
 <dt>
 Plain Language Definition
-
+</dt>
 <dd>
 A CharacterString can hold any collection of characters. If the domain of the CharacterString is freeText it is assumed that the content should be translated if the metadata are translated to another language.
 
@@ -14,7 +14,10 @@ A CharacterString can hold any collection of characters. If the domain of the Ch
 
 -   [How to replace CharacterString with another type](/Character_String_Extended_Types "wikilink")
 
-<!-- -->
+</dd>
+</dl>
+
+[New Page]: # (/new-page)
 
     <gco:CharacterString>303-497-6513</gco:CharacterString>
 
