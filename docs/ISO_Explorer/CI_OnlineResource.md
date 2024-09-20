@@ -46,6 +46,8 @@ Internet address which uses a Uniform Resource Locator address or similar addres
 <td bgcolor="CCFFFF">
 \[protocol](/CharacterString)
 
+<a href="/CharacterString"> Protocol</a>
+
 </td>
 <td bgcolor="CCFFFF">
 0..1
@@ -61,6 +63,7 @@ The connection protocol to be used. When applicable, use the identifier values i
 
 </td>
 <td bgcolor="CCFFFF">
+
 **Application Profile** [applicationProfile](/CharacterString)
 
 </td>
