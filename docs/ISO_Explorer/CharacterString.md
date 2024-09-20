@@ -17,7 +17,7 @@ A CharacterString can hold any collection of characters. If the domain of the Ch
 </dd>
 </dl>
 
-[New Page]: # (/new-page)
+[New Page]: # (/new_page)
 
     <gco:CharacterString>303-497-6513</gco:CharacterString>
 

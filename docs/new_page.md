@@ -1,7 +1,7 @@
 ---
 layout: page
 title: New Page
-permalink: /new-page/
+permalink: /new_page/
 ---
 
 # `Metadata Pages`
