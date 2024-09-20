@@ -315,16 +315,14 @@ M
 
 </table>
 ### More Information
-
+Image: [CI OnlineResource.png](/CI_OnlineResource.png)
 <table class="wikitable">
 <tbody>
 <tr>
 <td colspan="3" bgcolor="FFFFFF">
 <strong>UML</strong>
 </td>
-<td bgcolor="FFFFFF">
 [CI OnlineResource.png](/CI_OnlineResource.png)
-</td>
 </tr>
 <tr>
 <td colspan="3" bgcolor="FFFFFF">
@@ -337,7 +335,7 @@ Links
 
 <tr>
 <td colspan="3" bgcolor="FFFFFF">
-**Examples**
+Examples
 </td>
 <td bgcolor="#f8f9fa">
     <gmd:CI_OnlineResource>
