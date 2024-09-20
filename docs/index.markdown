@@ -8,6 +8,9 @@ The ISO Explorer can be used as an accompanying guide to the ISO 19115-2 metadat
 [An Internal Link to the About Metadata](/jpa-prototype/About_Collection_Metadata_Editing_Tool/)
 
 [Jekyll About](/jpa-prototype/about/)
+
+[New Page](/jpa-prototype/new_page)
+
 ## Support
 Any issues or suggestions should be directed to Paul Lemieux at paul.lemieux@noaa.gov.
 
