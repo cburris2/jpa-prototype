@@ -4,6 +4,7 @@ permalink: /CI_OnlineResource/
 ---
 
 <table class="wikitable">
+<tbody>
 <tr>
 <th colspan="3">
 Elements
@@ -27,12 +28,14 @@ Elements
 1
 
 </td>
+
 <td bgcolor="FFFFFF>
 <i>Internet address which uses a Uniform Resource Locator address or similar addressing scheme. Provide complete address to active URL. Do not provide URLs in other elements.
 ***Example***: [`https://www.noaa.gov`](https://www.noaa.gov)</i>
 
 </td>
 </tr>
+
 <tr>
 <td bgcolor="CCFFFF">
 2
@@ -312,6 +315,7 @@ M
 <td>
 </td>
 </tr>
+</tbody>
 </table>
 ### More Information
 
