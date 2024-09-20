@@ -46,9 +46,9 @@ Internet address which uses a Uniform Resource Locator address or similar addres
 
 <td bgcolor="CCFFFF">
 <dd>
-[protocol](/CharacterString)
+<a href="/jpa-prototype/CharacterString"> CharacterString</a>
 </dd>
-<a href="/CharacterString"> Protocol</a>
+
 
 </td>
 <td bgcolor="CCFFFF">
@@ -360,3 +360,21 @@ Links
 
 
 
+| # | Element      | Usage | Definition and Recommended Practice
+| - | ------------ | -------- | -------------------
+| 1 | [linkage](/CharaterString) | 1 | **_Internet address which uses a Uniform Resource Locator address or similar addressing scheme. Provide complete address to active URL. Do not provide URLs in other elements._** |
+| 2 | [protocol](/CharaterString) | 0...1 | **_The connection protocol to be used. When applicable, use the identifier values in this codelist hosted by Open Source Geospatial Foundation._**   |
+| 3 | [applicationProfile](/CharaterString) | 0...1 | Name of an application profile that can be used with the online resource. |
+| 4 | [name](/CharaterString) | 0...1 | Title of the online resource. For HTML pages, use the html title tag. Recommend providing at least a name or a description.   |
+| 5 | [description](/CharaterString) | 0...1 | 1	Brief text explaining content or purpose of online resource. Recommend providing at least a name or a description.Example: NOAA homepage  |
+| 6 | [function](/ISO_19115_and_19115-2_CodeList_Dictionaries) | 0...1 | Categorize the purpose of this online resource. Use 'download' for direct access to files or ftp sites. Use 'information' for pages with only descriptive information about the resource. Use 'search' for interfaces that support users interaction to find the resource of interest.   |
+
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
