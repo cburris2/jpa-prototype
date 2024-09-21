@@ -22,6 +22,7 @@ _ISO Usage: 1 = Mandatory, 0...1 = Optional_
 *M = Mandatory; C = Conditional; R = Recommended; blank cell = user discretion*  
 
 # NOAA Rubric
+
 | Community                   | Element            | M/C/R | Notes                                    
 |-----------------------------|--------------------|-------|------------------------------------------
 | NOAA Completeness Rubric V2 | linkage            | M     |                                          
@@ -32,6 +33,7 @@ _ISO Usage: 1 = Mandatory, 0...1 = Optional_
 | NOAA Completeness Rubric V2 | function           | M     |                                          
 
 # OneStop Project
+
 | Community       | Element            | M/C/R | Notes                                    
 |-----------------|--------------------|-------|------------------------------------------
 | OneStop Project | linkage            | M     |                                          |
