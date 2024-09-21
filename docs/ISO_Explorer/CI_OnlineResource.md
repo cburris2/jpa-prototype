@@ -22,18 +22,18 @@ _ISO Usage: 1 = Mandatory, 0...1 = Optional_
 *M = Mandatory; C = Conditional; R = Recommended; blank cell = user discretion*  
 
 # NOAA Rubric
-| Community                   | Element            | M/C/R | Notes                                    |
-|-----------------------------|--------------------|-------|------------------------------------------|
-| NOAA Completeness Rubric V2 | linkage            | M     |                                          |
-| NOAA Completeness Rubric V2 | protocol           | C     | Required when the URL is for Data Access |
-| NOAA Completeness Rubric V2 | applicationProfile | -     |                                          |
-| NOAA Completeness Rubric V2 | name               | C     | Provide if description field is null.    |
-| NOAA Completeness Rubric V2 | description        | C     | Provide if name field is null.           |
-| NOAA Completeness Rubric V2 | function           | M     |                                          |
+| Community                   | Element            | M/C/R | Notes                                    
+|-----------------------------|--------------------|-------|------------------------------------------
+| NOAA Completeness Rubric V2 | linkage            | M     |                                          
+| NOAA Completeness Rubric V2 | protocol           | C     | Required when the URL is for Data Access 
+| NOAA Completeness Rubric V2 | applicationProfile | -     |                                          
+| NOAA Completeness Rubric V2 | name               | C     | Provide if description field is null.    
+| NOAA Completeness Rubric V2 | description        | C     | Provide if name field is null.           
+| NOAA Completeness Rubric V2 | function           | M     |                                          
 
 # OneStop Project
-| Community       | Element            | M/C/R | Notes                                    |
-|-----------------|--------------------|-------|------------------------------------------|
+| Community       | Element            | M/C/R | Notes                                    
+|-----------------|--------------------|-------|------------------------------------------
 | OneStop Project | linkage            | M     |                                          |
 | OneStop Project | protocol           | C     | Required when the URL is for Data Access |
 | OneStop Project | applicationProfile | -     |                                          |
